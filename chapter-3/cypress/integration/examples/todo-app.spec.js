@@ -34,9 +34,9 @@ context('TODO MVC Application Tests', () => {
       cy.get(".todo-list").find('li').should('have.length', 1)
     });
     it('can delete a todo', () => {
-      cy.getSelector('.new-todo').type("New Todo {Enter}");
+      cy.get('.new-todo').type("New Todo {Enter}");
       cy.get(".new-todo").type("Another New Todos {Enter}");
-      cy.getSelector('.todo-list>li:nth-child(1)').find('button').click({ force: true })
+      cy.get('.todo-list>li:nth-child(1)').find('button').click({ force: true })
       cy.get(".todo-list").find('li').should('have.length', 1);
     })
   });
