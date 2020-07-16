@@ -15,6 +15,10 @@ $ cd chapter-3
 ```
 $ npm test
 ```
+#### Run screencast 
+
+![local-cypress-commands](https://user-images.githubusercontent.com/10160787/87683840-32ce0c00-c78a-11ea-9d52-0d5a80acbc40.gif)
+
 
 ### Debugging Cypress Tests
 ```
