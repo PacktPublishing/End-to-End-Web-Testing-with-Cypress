@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run",
-    "open": "./node_modules/.bin/cypress open"
+    "cypress:run": "cypress run --env TransferProtocol='http'",
+    "cypress:run:v2": "cypress run --env TransferProtocol='https'",
+    "cypress:open": "cypress open --env TransferProtocol='http'"
   },
   "keywords": [],
   "author": "",
