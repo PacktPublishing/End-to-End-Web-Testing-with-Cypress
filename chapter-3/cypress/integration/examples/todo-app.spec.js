@@ -2,7 +2,7 @@
 
 context('TODO MVC Application Tests', () => {
   beforeEach(() => {
-    cy.visit('http://todomvc.com/examples/react/#/')
+    cy.visit(`${Cypress.env('TransferProtocol')}://todomvc.com/examples/react/#/`)
   });
 
   describe('Todo app tests', () => {
