@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-context('TODO MVC Application Tests', () => {
+context('TODO MVC Application V2 Tests', () => {
   beforeEach(() => {
     cy.visit(`${Cypress.env('TransferProtocol')}://todomvc.com/examples/react/#/`)
   });
