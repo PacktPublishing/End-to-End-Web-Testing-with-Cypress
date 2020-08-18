@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:run": "cypress run",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run-disable-file-watching": "cypress open --config watchForFileChanges=false"
   },
   "keywords": [],
   "author": "",

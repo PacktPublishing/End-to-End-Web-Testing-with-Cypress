@@ -9,3 +9,11 @@
 ## Asserting Element Exists on Todo Application
 
 ![asserting-todo-input-element](https://user-images.githubusercontent.com/10160787/90391973-b4b99980-e096-11ea-9d0c-24151785f7f6.gif)
+
+
+## Cypress disable file watching
+This command, will disable the Cypress auto reload functionality when the files are changed. 
+
+```
+npm run cypress:run-disable-file-watching
+```
