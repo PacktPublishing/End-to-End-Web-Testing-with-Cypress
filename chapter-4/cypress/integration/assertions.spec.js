@@ -22,6 +22,4 @@ describe('Cypress Assertions', () => {
         expect($elem).to.have.attr('placeholder','What needs to be done?')
         })
     });
-
-   
 });
