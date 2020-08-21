@@ -17,7 +17,6 @@ describe('Todo Application tests', () => {
         cy.get('.new-todo').type('Another Todo {enter}')
         cy.get(".todo-list").find('li').should('have.length', 2)
     });
-
     it('asserts inserted todo items are present', () => {
         cy.visit('http://todomvc.com/examples/react/#/')
        
