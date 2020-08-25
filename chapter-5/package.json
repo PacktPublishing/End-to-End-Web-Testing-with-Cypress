@@ -1,0 +1,17 @@
+{
+  "name": "chapter-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run --env TransferProtocol='http'",
+  
+    "cypress:open:server-debugger": "DEBUG=cypress:server:* cypress open --env TransferProtocol='http'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.10.0"
+  }
+}
