@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "cypress run --env TransferProtocol='http'",
-  
-    "cypress:open:server-debugger": "DEBUG=cypress:server:* cypress open --env TransferProtocol='http'"
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open "
   },
   "keywords": [],
   "author": "",
