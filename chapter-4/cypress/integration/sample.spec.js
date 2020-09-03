@@ -4,7 +4,7 @@ describe('Our Passing Test', () => {
     });
 });
 
-describe('Our Failling Test', () => {
+describe('Our Failing Test', () => {
     it('returns false', () => {
         expect(true).to.equal(false);
     });
