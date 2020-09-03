@@ -23,6 +23,6 @@ $ npm ci
 
 ### Running all Cypress Tests
 ```
-$ npm test
+$ npm run cypress:run
 ```
 
