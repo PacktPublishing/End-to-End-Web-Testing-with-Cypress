@@ -5,7 +5,7 @@ context('TODO App Tests', () => {
     cy.visit('http://localhost:3000/')
   });
   describe('Todo Items with TDD', () => {
-    it('can create and displays new todo', () => {
+    it('can create and display new todo', () => {
       cy.get('[data-testid="todo-item-input"]')
         .type('New todo');
       cy.get('[data-testid="add-todo-button"]')
