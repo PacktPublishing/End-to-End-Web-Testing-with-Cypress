@@ -1,5 +1,5 @@
 # Chapter 5
-This chapter contains useful code snippets for the Automation Testing with Cypress Book chapter 3; 
+This chapter contains useful code snippets for the Automation Testing with Cypress Book chapter 4; 
 
 In this chapter we will use an opensource application [(todomvc)](http://todomvc.com/examples/react/#/) to test the use of command line tools when running and debugging cypress tests.
 
