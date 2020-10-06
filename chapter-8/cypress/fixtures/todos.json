@@ -1,0 +1,10 @@
+[
+  {
+    "name": "New Todo",
+    "body": "Fixture one body"
+  },
+  {
+    "name": "Another New Todo two",
+    "body": "Fixture two body"
+  }
+]
