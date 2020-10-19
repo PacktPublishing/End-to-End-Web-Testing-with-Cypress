@@ -1,5 +1,5 @@
 {
-  "name": "chapter-8",
+  "name": "chapter-9",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^4.10.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
