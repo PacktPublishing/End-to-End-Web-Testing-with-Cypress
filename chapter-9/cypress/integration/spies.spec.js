@@ -2,7 +2,7 @@
 
 context('TODO MVC - Spy Tests', () => {
 
-  describe.only('Spies a method', () => {
+  describe('Spies a method', () => {
     it('can spy a method', () => {
       let obj = {
         foo () {},

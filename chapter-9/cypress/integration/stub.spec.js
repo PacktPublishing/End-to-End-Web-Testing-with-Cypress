@@ -2,7 +2,7 @@
 
 context('TODO MVC - Stub Tests', () => {
 
-  describe.only('Stubs a method', () => {
+  describe('Stubs a method', () => {
     it('can stub a method', () => {
       let obj = {
         foo () {},
