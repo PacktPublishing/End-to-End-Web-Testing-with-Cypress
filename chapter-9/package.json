@@ -1,0 +1,19 @@
+{
+  "name": "chapter-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.10.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
