@@ -1,0 +1,23 @@
+{
+    "name": "chapter-10",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "cypress-app": "cd cypress-realworld-app; yarn install && yarn start",
+      "cypress-app-reset": "cd cypress-realworld-app; yarn prestart"
+     
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mwaz/Automation-Testing-with-Cypress.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mwaz/Automation-Testing-with-Cypress/issues"
+    },
+    "homepage": "https://github.com/mwaz/Automation-Testing-with-Cypress#readme"
+  }
+  
