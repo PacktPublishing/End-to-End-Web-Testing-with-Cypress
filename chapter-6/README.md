@@ -1,9 +1,9 @@
 # Chapter 6
-This chapter contains useful code snippets for the Automation Testing with Cypress Book chapter 6;
+This directory contains useful code snippets for the Automation Testing with Cypress Book chapter 6;
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Executing Tests by folder
-To executes tests in this chapter one needs to get into the chapter folder and run the tests from the test folder itself as every folder is a module on its own. 
+To execute tests in this chapter one needs to get into the chapter folder and run the tests from the test folder itself as every folder is a module on its own. 
 
 ```
 $ cd chapter-6
