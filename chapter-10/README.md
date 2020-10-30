@@ -2,7 +2,7 @@
 This directory contains useful code snippets for the Automation Testing with Cypress Book chapter 10;
 
 We have bootstrapped our tests with the [Cypress realworld application](https://github.com/cypress-io/cypress-realworld-app) project which is a simple financial application
-that is meant to help Cypress users better understand how to test Cypress applications. The application is located in the location `chapter-10/cypress-realworld-app`. 
+that is meant to help Cypress users better understand how to test Cypress applications. The application is located in the location  in the directory in the root directory of the repository `cypress-realworld-app`. 
 
 To simplify execution of the application, we will only have three commands that will be used to run our test application. One command is to run to install the dependencies, the other to run the application, while the last command's purpose will be to reset the application as it uses a json database which needs resetting if at all any 
 changes were made to the database in the process.
