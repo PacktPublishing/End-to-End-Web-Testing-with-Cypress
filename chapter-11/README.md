@@ -1,4 +1,4 @@
-# Chapter 10
+# Chapter 11
 This directory contains useful code snippets for the Automation Testing with Cypress Book chapter 10;
 
 We have bootstrapped our tests with the [Cypress realworld application](https://github.com/cypress-io/cypress-realworld-app) project which is a simple financial application
