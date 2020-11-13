@@ -1,5 +1,5 @@
-# Chapter 11
-This directory contains useful code snippets for the Automation Testing with Cypress Book chapter 11;
+# Chapter 12
+This directory contains useful code snippets for the Automation Testing with Cypress Book chapter 12;
 
 We have bootstrapped our tests with the [Cypress realworld application](https://github.com/cypress-io/cypress-realworld-app) project which is a simple financial application
 that is meant to help Cypress users better understand how to test Cypress applications. The application is located in the root location in the directory `cypress-realworld-app`. 
@@ -52,7 +52,7 @@ All usernames have a password of `s3cret`
 To execute tests in this chapter one needs to get into the chapter folder and run the tests from the test folder itself as every folder is a module on its own. 
 
 ```
-$ cd chapter-11
+$ cd chapter-12
 ```
 
 ### Installing project dependencies for Cypress tests
@@ -69,3 +69,4 @@ $ npm ci
 ```
 $ npm run cypress:run
 ```
+
