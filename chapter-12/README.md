@@ -70,3 +70,21 @@ $ npm ci
 $ npm run cypress:run
 ```
 
+### Adding Percy Token (Unix)
+```
+export PERCY_TOKEN=YOUR_TOKEN_HERE
+```
+
+### Adding Percy Token (Windows)
+```
+set PERCY_TOKEN=YOUR_TOKEN_HERE
+```
+### Adding Applitools Token (Unix)
+```
+export APPLITOOLS_API_KEY=YOUR_API_KEY_HERE
+```
+
+### Adding Applitools Token (Windows)
+```
+set APPLITOOLS_API_KEY=YOUR_API_KEY_HERE
+```
