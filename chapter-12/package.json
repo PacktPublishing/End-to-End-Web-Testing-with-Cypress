@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/mwaz/Automation-Testing-with-Cypress#readme",
   "devDependencies": {
-    "@applitools/eyes-cypress": "^3.15.5",
-    "@percy/cypress": "^2.3.2",
-    "cypress": "^5.4.0"
+    "@applitools/eyes-cypress": "^3.18.4",
+    "@percy/cypress": "^2.3.3",
+    "cypress": "^6.2.1"
   }
 }

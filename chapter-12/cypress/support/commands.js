@@ -1,7 +1,6 @@
 import '@percy/cypress';
 
 Cypress.Commands.add("loginUser", (username='Katharina_Bernier', password='s3cret') => { 
-    cy.server();
     cy.visit('signin'); 
     cy.get('#username').type(username);
     cy.get('#password').type(password);
