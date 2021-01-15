@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-context('TODO MVC - Routes Tests', () => {
+context('TODO MVC - Selector Playground Tests', () => {
     beforeEach(() => {
         cy.visit('http://todomvc.com/examples/react/#/');
     
@@ -14,3 +14,4 @@ context('TODO MVC - Routes Tests', () => {
         });
     });
   });
+  
