@@ -3,10 +3,10 @@ describe('Network Requests', () => {
     beforeEach(() => {
         cy.loginUser();
 
-        cy.route('bankAccounts').as('bankAccounts');
-        cy.route('transactions/public').as('transactions');
-        cy.route('transactions').as('personalTransactions');
-        cy.route('notifications').as('notifications');
+        cy.intercept('bankAccounts').as('bankAccounts');
+        cy.intercept('transactions/public').as('transactions');
+        cy.intercept('transactions').as('personalTransactions');
+        cy.intercept('notifications').as('notifications');
 
         cy.wait('@bankAccounts');
         cy.wait('@transactions');
@@ -15,26 +15,6 @@ describe('Network Requests', () => {
 
     afterEach(() => {
         cy.logoutUser();
-    });
-
-    it('cy.server(): can override server configuration in a test', () => {
-
-        cy.server({
-            method: 'PUT',
-            delay: 1000,
-            status: 200,
-            response: {
-                message: "success"
-            },
-            headers: {
-                Xtoken: 'test-token'
-            }
-        }).should((server) => {
-            expect(server.status).to.eq(200);
-            expect(server.response.message).to.eq("success");
-            expect(server.method).to.eq("PUT");
-            expect(server.headers.Xtoken).to.eq('test-token');
-        });
     });
 
     it('cy.request(): fetch all transactions from our JSON database', () => {
@@ -46,14 +26,15 @@ describe('Network Requests', () => {
             expect(response.body.results).to.be.an('array');
         });
     });
+});
 
-    describe('Routes', () => {
-        beforeEach(() => {
-            cy.route('POST', 'login').as('userInformation');
-        });
+describe('Network request routes', () => {
+    beforeEach(() => {
+        cy.intercept('POST', 'login').as('userInformation');
+    });
 
-        it('cy.route(): verify login XHR is called when user logs in', () => {
-            cy.wait('@userInformation').its('status').should('eq', 200)
-        });
+    it('cy.intercept(): verify login XHR is called when user logs in', () => {
+        cy.loginUser();
+        cy.wait('@userInformation').its('response.statusCode').should('eq', 200)
     });
 });
