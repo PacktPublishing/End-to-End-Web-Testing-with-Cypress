@@ -83,8 +83,7 @@ context('TODO MVC - Aliases Tests', () => {
   describe('Accessing route references', () => {
     // Demonstation Test woun't pass
     it('can wait for a todo response', () => {
-      cy.server()
-      cy.route('POST', '/todos', { id: 123 }).as('todoItem')
+      cy.intercept('POST', '/todos', { id: 123 }).as('todoItem')
       cy.get('form').submit()
       cy.wait('@todoItem').its('requestBody').should('have.property', 'name', 'New Todo')
       cy.contains('Successfully created item: New Todo')
