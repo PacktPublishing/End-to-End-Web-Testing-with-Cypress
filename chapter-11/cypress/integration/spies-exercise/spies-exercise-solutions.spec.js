@@ -24,11 +24,10 @@ describe('Exercise 2: Spy requests: API - part 2', () => {
 
     beforeEach(() => {
         cy.loginUser()
-        cy.server();
 
-        cy.route('bankAccounts').as('bankAccounts');
-        cy.route('transactions/public').as('transactions');
-        cy.route('notifications').as('notifications');
+        cy.intercept('bankAccounts').as('bankAccounts');
+        cy.intercept('transactions/public').as('transactions');
+        cy.intercept('notifications').as('notifications');
 
         cy.wait('@bankAccounts');
         cy.wait('@transactions');
