@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "windows-cd": "cd ..\\cypress-realworld-app && npm install yarn",
-    "unix-cd": "cd ../cypress-realworld-app",
-    "install": "yarn install",
-    "start": "yarn start",
-    "cypress-init": "npm run unix-cd && npm install && npm start",
-    "cypress-init-windows": "npm run windows-cd && npm install && start",
-    "cypress-app": "cd ../cypress-realworld-app; yarn prestart && yarn start",
+    "cypress-init": "cd ../cypress-realworld-app && yarn install && yarn start",
+    "cypress-app": "cd ../cypress-realworld-app && yarn prestart && yarn start",
     "cypress-app-reset": "cd ../cypress-realworld-app; yarn prestart",
+    "cypress-init-windows": "cd ..\\cypress-realworld-app && yarn install && yarn start",
+    "cypress-app-windows": "cd ..\\cypress-realworld-app && yarn prestart && yarn start",
+    "cypress-app-reset-windows": "cd ..\\cypress-realworld-app && yarn prestart",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open "
   },
@@ -27,7 +25,6 @@
   },
   "homepage": "https://github.com/mwaz/Automation-Testing-with-Cypress#readme",
   "devDependencies": {
-    "cypress": "^6.2.1",
-    "npm-run-all": "^4.1.5"
+    "cypress": "^6.2.1"
   }
 }
