@@ -10,7 +10,16 @@ changes were made to the database in the process.
 ## Application Summary
 The Application is a React Typescript application with the backend built with express Js and the database low-db.
 
-## 1. Installing our Application dependencies
+## 1. Installing  Yarn 
+This command will install yarn package manager in your machine globally
+N.B This might require you to run with Sudo permissions e.g. `sudo npm install -g yarn`
+
+```
+npm install -g yarn
+
+```
+
+## 2. Installing our application dependencies
 
 This command will install our test application dependencies and start our application (both the API and the frontend)
 
@@ -19,7 +28,7 @@ npm run cypress-init
 
 ```
 
-## 2. Running the application
+## 3. Running the application
 
 This command will run our test application and start both the frontend and backend (API) and seed our low-db data. 
 
@@ -28,7 +37,7 @@ npm run cypress-app
 
 ```
 
-## 3. Resetting the application
+## 4. Resetting the application
 
 This command will reset our low-db database to the original state without any additions that may have been made during the process of interaction with our application. 
 
