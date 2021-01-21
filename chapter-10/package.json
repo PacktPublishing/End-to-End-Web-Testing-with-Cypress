@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "windows-cd": "cd ..\\cypress-realworld-app",
+    "windows-cd": "cd ..\\cypress-realworld-app && npm install yarn",
     "unix-cd": "cd ../cypress-realworld-app",
     "install": "yarn install",
     "start": "yarn start",
