@@ -24,7 +24,12 @@ npm install -g yarn
 This command will install our test application dependencies and start our application (both the API and the frontend)
 
 ```
-npm run cypress-init
+npm run cypress-init (Linux and MacOS)
+
+```
+
+```
+npm run cypress-init-windows (Windows OS)
 
 ```
 
@@ -33,7 +38,12 @@ npm run cypress-init
 This command will run our test application and start both the frontend and backend (API) and seed our low-db data. 
 
 ```
-npm run cypress-app
+npm run cypress-app (Linux and Mac OS)
+
+```
+
+```
+npm run cypress-app-windows ( Windows OS)
 
 ```
 
@@ -42,7 +52,12 @@ npm run cypress-app
 This command will reset our low-db database to the original state without any additions that may have been made during the process of interaction with our application. 
 
 ```
-npm run cypress-app-reset
+npm run cypress-app-reset (Linux and Mac OS)
+
+```
+
+```
+npm run cypress-app-reset (Windows OS)
 
 ```
 
