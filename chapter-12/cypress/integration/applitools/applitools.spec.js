@@ -31,6 +31,3 @@ describe('Applitools Visual Tests', () => {
 * N.B
 * Rememeber to export your APPLITOOLS_API_KEY variable obtained from the Applitools project dashboard
 */
-
-
-  // YlLip414Onsn91KGWkQisXTkdII2LI97PjvPaUCDIknk110
