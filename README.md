@@ -1,6 +1,6 @@
 # End-to-End Web Testing with Cypress
 
-<a href="https://www.packtpub.com/product/end-to-end-web-testing-with-cypress/9781839213854?utm_source=github&utm_medium=repository&utm_campaign=9781839213854"><img src="https://static.packt-cdn.com/products/9781839213854/cover/smaller" alt="End-to-End Web Testing with Cypress" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/end-to-end-web-testing-with-cypress/9781839213854?utm_source=github&utm_medium=repository&utm_campaign=9781839213854"><img src="https://github.com/PacktPublishing/End-to-End-Web-Testing-with-Cypress/blob/master/Cover%20Image.png?raw=true" alt="End-to-End Web Testing with Cypress" height="256px" align="right"></a>
 
 This is the code repository for [End-to-End Web Testing with Cypress](https://www.packtpub.com/product/end-to-end-web-testing-with-cypress/9781839213854?utm_source=github&utm_medium=repository&utm_campaign=9781839213854), published by Packt.
 
